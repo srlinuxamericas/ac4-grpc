@@ -1,6 +1,6 @@
 # Mastering gRPC-Based Services for Network Automation
 
-Welcome to the workshop on *Mastering gRPC-based services for network auotmation* at Network Automation Forum's Autocon3.
+Welcome to the workshop on *Mastering gRPC-based services for network auotmation* at Network Automation Forum's Autocon4.
 
 This README is your starting point into the hands on section.
 
