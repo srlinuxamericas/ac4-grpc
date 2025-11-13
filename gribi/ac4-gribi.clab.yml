@@ -1,7 +1,7 @@
-name: ac3-gribi
+name: ac4-gribi
 
 mgmt:
-  network: ac3-grpc-lab-mgmt
+  network: ac4-grpc-lab-mgmt
   ipv4-subnet: 172.50.20.0/24
   ipv6-subnet: 2001:172:50:20::/64
 
