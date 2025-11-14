@@ -1,4 +1,4 @@
-# gNSI Use Cases
+# 5 gNSI Use Cases
 
 gNSI services and RPCs are used for securing the switch. This includes Authorization policies for gRPC service access, Certificate management and Accounting.
 
