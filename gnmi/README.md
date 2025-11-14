@@ -1,4 +1,4 @@
-# gNMI Use Cases
+# 3 gNMI Use Cases
 
 ## 1.1 gNMI Capabilities
 
