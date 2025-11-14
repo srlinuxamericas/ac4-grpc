@@ -39,9 +39,17 @@ Both clients will be running a light version of [Alpine Linux](https://alpinelin
 
 See the [topology](ac3-grpc.clab.yml) file for more details.
 
-## Deploying the lab
+## 1 Deploying the lab
 
 Login to the VM using the credentials on your sheet.
+
+Install Containerlab on your VM.
+
+```bash
+curl -sL https://containerlab.dev/setup | sudo -E bash -s "all"
+```
+
+Logout and login for the sudo privileges to take effect.
 
 Clone the Git repo to your VM:
 
