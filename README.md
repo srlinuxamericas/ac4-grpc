@@ -169,7 +169,7 @@ Example on spine to Leaf1 for IPv6:
 ping6 -c 3 192:168:10::2 network-instance default
 ```
 
-## gRPC Clients
+## 2 gRPC Clients
 
 We will be using the following gRPC clients:
 
