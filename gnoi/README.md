@@ -1,4 +1,4 @@
-# 3 gNOI Use Cases
+# 4 gNOI Use Cases
 
 In this section, we will explore gNOI services.
 
