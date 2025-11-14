@@ -37,7 +37,7 @@ Both leafs and Spine nodes will be running the latest release (25.3.1) of Nokia 
 
 Both clients will be running a light version of [Alpine Linux](https://alpinelinux.org/).
 
-See the [topology](ac3-grpc.clab.yml) file for more details.
+See the [topology](ac4-grpc.clab.yml) file for more details.
 
 ## 1 Deploying the lab
 
@@ -54,20 +54,20 @@ Logout and login for the sudo privileges to take effect.
 Clone the Git repo to your VM:
 
 ```
-git clone https://github.com/srlinuxamericas/ac3-grpc.git
+git clone https://github.com/srlinuxamericas/ac4-grpc.git
 ```
 
 Verify that the git repo files are now available on your VM.
 
 ```
-ls -lrt ac3-grpc/
+ls -lrt ac4-grpc/
 ```
 
 To deploy the lab, run the following:
 
 ```
-cd ac3-grpc
-sudo clab deploy -t ac3-grpc.clab.yml
+cd ac4-grpc
+sudo clab deploy -t ac4-grpc.clab.yml
 ```
 
 [Containerlab](https://containerlab.dev/) will deploy the lab and display a table with the list of nodes and their IPs.
@@ -115,10 +115,10 @@ This lab can be deployed using GitHub Codespaces. Once you are logged into GitHu
 
 ---
 <div align=center>
-<a href="https://codespaces.new/srlinuxamericas/ac3-grpc?quickstart=1">
+<a href="https://codespaces.new/srlinuxamericas/ac4-grpc?quickstart=1">
 <img src="https://gitlab.com/rdodin/pics/-/wikis/uploads/d78a6f9f6869b3ac3c286928dd52fa08/run_in_codespaces-v1.svg?sanitize=true" style="width:50%"/></a>
 
-**[Run](https://codespaces.new/srlinuxamericas/ac3-grpc?quickstart=1) this lab in GitHub Codespaces for free**.  
+**[Run](https://codespaces.new/srlinuxamericas/ac4-grpc?quickstart=1) this lab in GitHub Codespaces for free**.  
 [Learn more](https://containerlab.dev/manual/codespaces/) about Containerlab for Codespaces.
 
 </div>
