@@ -142,7 +142,7 @@ ssh leaf1
 To login to the client, identify the client hostname using the `sudo clab inspect --all` command above and then:
 
 ```
-sudo docker exec –it client3 sh
+sudo docker exec –it client3 bash
 ```
 
 ### IPv4 Link Addressing
