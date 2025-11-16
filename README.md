@@ -39,7 +39,7 @@ Both clients will be running a light version of [Alpine Linux](https://alpinelin
 
 See the [topology](ac4-grpc.clab.yml) file for more details.
 
-## 1 Deploying the lab
+## 0 Deploying the lab
 
 Login to the VM using the credentials on your sheet.
 
@@ -169,7 +169,7 @@ Example on spine to Leaf1 for IPv6:
 ping6 -c 3 192:168:10::2 network-instance default
 ```
 
-## 2 gRPC Clients
+##  gRPC Clients
 
 We will be using the following gRPC clients:
 
