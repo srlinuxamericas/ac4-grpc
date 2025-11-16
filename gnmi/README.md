@@ -203,7 +203,7 @@ We will configure the `system0` loopback interface on all 3 devices using this m
 |leaf2|2.2.2.2/32|
 |spine|3.3.3.3/32|
 
-The config files are located on your repo under [gnmi](gnmi/) are in `json` format.
+The config files are located on your repo under [gnmi](../gnmi/) are in `json` format.
 
 Note:
 If you are wondering how to prepare the configuration in `json` format, SR Linux CLI has an option to display the configuration in `json` format. After an interface is configured, run the below command to display the interface configuration in `json` format. This can be copied to a file and used in the gNMI Set request.
