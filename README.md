@@ -239,7 +239,7 @@ We can see that all 4 gRPC services for this workshop are enabled on both gRPC s
 Secure gRPC server is listening on the default gRPC port (57400) while the insecure gRPC server is listening on port 57401.
 
 
-## Next Section:   [gNMI Service](https://github.com/srlinuxamericas/ac4-grpc/tree/main/openconfig)
+## Next Section:   [gNMI Service](https://github.com/srlinuxamericas/ac4-grpc/tree/main/gnmi)
 
 --------------------------
 ## Useful links
