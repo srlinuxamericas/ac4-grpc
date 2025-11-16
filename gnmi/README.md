@@ -606,4 +606,4 @@ Stop the ping using `CTRL+c` and check the streaming output again. The stream ha
 
 Stop the streaming session using `CTRL+c`.
 
-## Next Section: [gNOI Service](https://github.com/srlinuxamericas/ac4-grpc/tree/main/gnoi)
+## Next Section: [gNOI Service](https://github.com/srlinuxamericas/ac4-grpc/tree/main/openconfig)
