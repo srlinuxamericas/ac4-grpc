@@ -14,7 +14,7 @@ sudo clab des -a
 Change to the `gribi` directory
 
 ```bash
-cd ~/ac3-grpc/gribi
+cd ~/ac4-grpc/gribi
 ```
 
 Deploy gRIBI lab
