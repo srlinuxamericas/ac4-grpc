@@ -210,7 +210,7 @@ Before we push the configuration, verify that BGP is not configured in default n
 For example, to check on leaf1:
 
 ```bash
-gnmic -a leaf1:57401 -u admin -p admin --insecure get --path openconfig:/network-instances/network-instance[name=default] --encoding json_ietf
+gnmic -a leaf1:57401 -u admin -p admin --insecure get --path openconfig:/network-instances/network-instance[name=*] --encoding json_ietf --type config
 ```
 
 
@@ -243,7 +243,7 @@ Expected output:
 Run the Get RPC used above to verify that BGP and MAC-VRF are now configured.
 
 ```bash
-gnmic -a leaf1:57401 -u admin -p admin --insecure get --path openconfig:/network-instances/network-instance[name=default] --encoding json_ietf
+gnmic -a leaf1:57401 -u admin -p admin --insecure get --path openconfig:/network-instances/network-instance[name=*] --encoding json_ietf --type config
 ```
 
 Complete configuration on leaf2 and spine.
