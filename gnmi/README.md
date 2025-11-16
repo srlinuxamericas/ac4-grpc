@@ -580,7 +580,7 @@ The streaming session can be stopped using `CTRL+c`.
 
 ### 1.4.3 On change
 
-In some cases, we only want a counter when the value has changed. For example, after a new interface is configured, the out packets will be 0 until a protocol and neighbor are established. There is benefit in streaming continous 0.
+In some cases, we only want a counter when the value has changed. For example, after a new interface is configured, the out packets will be 0 until a protocol and neighbor are established. There is no benefit in streaming continous zeros.
 
 This is where the `ON-CHANGE` option comes to the rescue.
 
