@@ -358,3 +358,5 @@ On another window, run the ping from Client 1 to Client 3 as shown in previous s
 Verify that the streaming session is now showing outputs for each counter increment.
 
 Stop the ping and the streaming session using `CTRL+c`.
+
+## Next Section: [gNOI Service](https://github.com/srlinuxamericas/ac4-grpc/tree/main/gnoi)
