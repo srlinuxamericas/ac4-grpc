@@ -209,7 +209,7 @@ Note:
 If you are wondering how to prepare the configuration in `json` format, SR Linux CLI has an option to display the configuration in `json` format. After an interface is configured, run the below command to display the interface configuration in `json` format. This can be copied to a file and used in the gNMI Set request.
 
 ```bash
-info interface system0 | as json
+info interface ethernet-1/1 | as json
 ```
 
 Let's push the system interface configuration on all 3 devices.
