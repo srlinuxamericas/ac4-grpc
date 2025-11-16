@@ -605,3 +605,5 @@ While ping is in progress, check the streaming output. There should be a contino
 Stop the ping using `CTRL+c` and check the streaming output again. The stream has slowed down or is not streaming any more as there is no change in the counter value.
 
 Stop the streaming session using `CTRL+c`.
+
+## Next Section: [gNOI Service](https://github.com/srlinuxamericas/ac4-grpc/tree/main/gnoi)
