@@ -1,4 +1,4 @@
-# 1.5 gNMI with Openconfig models
+# 2 gNMI with Openconfig models
 
 Openconfig is a standards based vendor neutral way for configuring and retrieving state from Network Operating Systems (NOS). Openconfig is standardized by [Openconfig.net](https://www.openconfig.net/). Openconfig communication is based on yang models.
 
