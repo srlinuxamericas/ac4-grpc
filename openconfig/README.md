@@ -330,7 +330,7 @@ The Layer 2 EVPN should be UP and we should be able to ping from Client 1 to Cli
 Login to Client 1:
 
 ```bash
-sudo docker exec -it client1 bash
+sudo docker exec -it client3 bash
 ```
 
 and run a ping to Client 3
