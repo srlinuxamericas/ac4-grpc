@@ -442,3 +442,5 @@ To verify that the new TLS profile is working, let's get the Management port sta
 ```bash
 gnmic -a 172.20.20.2 -u admin -p admin --tls-ca ca.pem  get --path /interface[name=mgmt0]/statistics --encoding json_ietf
 ```
+
+## Next Section: [gRBI Service](https://github.com/srlinuxamericas/ac4-grpc/tree/main/gribi)
