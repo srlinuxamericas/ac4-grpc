@@ -237,7 +237,7 @@ Note - As gNSIc client is in beta phase, it might not push the policy in the fir
 
 Now, test the list, get, put file operations again.
 
-Refer to the steps above.
+Refer to the steps in [Section 4.1](#41-gnsi-authz).
 
 Put operation will be denied with the below output.
 
