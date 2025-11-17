@@ -139,7 +139,7 @@ INFO[0000] "leaf1:57401":
 
 There are no gRIBI routes at this time.
 
-Now, let's push the gRIBI route. The route [instructions](#L50) are saved in a file [grib-input.yml](grib-input.yml)
+Now, let's push the gRIBI route. The route [instructions](#L54) are saved in a file [grib-input.yml](grib-input.yml)
 
 **5.1.4 gRIBI Modify**
 
