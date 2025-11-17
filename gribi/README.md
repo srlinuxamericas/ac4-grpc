@@ -51,7 +51,7 @@ We can see that the next-hop from `leaf1` to reach `2.2.2.2` is via Spine. This 
 
 Next, we will inject a route on `leaf1` to redirect traffic going to `2.2.2.2` to use the direct link to `leaf2`.
 
-Here's the payload that we will push.
+Here's the payload that we will push.(#a-girbi-payload)
 
 ```yaml
 default-network-instance: default
@@ -139,7 +139,7 @@ INFO[0000] "leaf1:57401":
 
 There are no gRIBI routes at this time.
 
-Now, let's push the gRIBI route. The route [instructions](#L54) are saved in a file [grib-input.yml](grib-input.yml)
+Now, let's push the gRIBI route. The route [instructions](#a-girbi-payload) are saved in a file [grib-input.yml](grib-input.yml)
 
 **5.1.4 gRIBI Modify**
 
