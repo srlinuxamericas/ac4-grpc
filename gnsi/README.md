@@ -263,7 +263,7 @@ gNSI Certz RPCs are used for this purpose.
 
 Assuming our starting point is an insecure connection, we will build a TLS profile with certificates and use it on a gRPC server to make our connection secure.
 
-**4.2.1 Create a new TLS profile on the router:**
+**4.2.1 Create a new TLS profile on the switch:**
 
 ```bash
 gnsic -a leaf1:57401 -u admin -p admin --insecure certz add-profile --id Corp-Sec-A
